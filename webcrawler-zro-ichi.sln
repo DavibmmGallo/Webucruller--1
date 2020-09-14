@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webcrawler-zro-ichi", "webcrawler-zro-ichi\webcrawler-zro-ichi.csproj", "{EA9863A5-C82B-4DCF-8CC6-2846A603A0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webview", "webview\webview.csproj", "{42323E2D-9137-46BC-AB09-0E3A67DFA7FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA9863A5-C82B-4DCF-8CC6-2846A603A0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9863A5-C82B-4DCF-8CC6-2846A603A0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9863A5-C82B-4DCF-8CC6-2846A603A0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9863A5-C82B-4DCF-8CC6-2846A603A0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42323E2D-9137-46BC-AB09-0E3A67DFA7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42323E2D-9137-46BC-AB09-0E3A67DFA7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42323E2D-9137-46BC-AB09-0E3A67DFA7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42323E2D-9137-46BC-AB09-0E3A67DFA7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F0D8134-B024-4717-B1F6-CF5325872218}
+	EndGlobalSection
+EndGlobal
