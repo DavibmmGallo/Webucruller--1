@@ -13,7 +13,7 @@ namespace webcrawler_zro_ichi
         public DbSet<Anime> animes { get; set; }
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-           => optionsBuilder.UseNpgsql("Host=127.0.0.1;Database=postgree_tuts;Username=postgres;Password=exmachina0451");
+           => optionsBuilder.UseNpgsql("Host=localhost;Database=db;Username=postegresql;Password=passwd");
 
        
     }
