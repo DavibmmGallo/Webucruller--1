@@ -6,11 +6,13 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace webcrawler_zro_ichi
 {
     public class Program
     {
-        //website that will be visited
+        //website that will be visited, btw I don't advertise or I own the site I just used it because it doesn't have the reCAPTCHA
         static string url = "https://www.anitube.site/";
 
         //buffer of how many episodes will be catch
@@ -29,6 +31,7 @@ namespace webcrawler_zro_ichi
 
             return res;
         }
+        //execute task Main public method
         public async void execute()
         {
             await Main(null);
